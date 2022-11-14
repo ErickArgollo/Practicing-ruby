@@ -18,7 +18,7 @@ class Pessoa
     def falar(param = 'olá') #posso pensar como uma função em js
         #corpo do método
         return param
-        #para retornar, só utilizar o return, como no JS, posso fazer também sem o return.
+        #para retornar, só utilizar o return, como no JS. Posso fazer também sem o return.
     end
 
     def gritar
