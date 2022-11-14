@@ -12,7 +12,15 @@ firstBool = true;
 print firstString.class, firstInteger.class
 puts firstBool # Aparentemente o .class não aponta como boolean, somente o valor, nesse caso, true.
 
+# || na declaração
+myvar = 'oi'
+myvar ||= 'const' #O || só vai setar o valor da variável se ela não tiver sido definida antes. 
+puts myvar
 
+#Para declarar constantes inicio com letra Maiúscula;
+MYvar = 'teste const'
+MYvar = 'olaa'
+puts MY_var
 
 # Testes...
 

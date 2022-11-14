@@ -1,5 +1,6 @@
 firstArray = [];
 firstArray.push('teste')
+firstArray << 'oi' # << faz o mesmo que o método push
 # puts firstArray
 
 #Existe o metodo .delete, posso passar para ele o valor. ex
