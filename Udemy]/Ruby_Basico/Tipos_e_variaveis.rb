@@ -16,9 +16,7 @@ puts firstBool # Aparentemente o .class não aponta como boolean, somente o valo
 
 # Testes...
 
-firstArr = ['hi', 'teste', 2];
+firstArr = ['hi', 'teste', 'abc'];
 
 print firstArr.class
 #Consigo saber se o tipo é array, utilizando o class ( no JS, voltaria como objeto, mas em ruby já tenho a resposta "correta".)
-
-# print firstArr[2] - a forma de acessar o valor da posição aparenta ser diferente, ( verificar mais a frente. )
