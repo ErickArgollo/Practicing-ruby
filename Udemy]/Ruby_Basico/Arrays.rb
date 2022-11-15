@@ -79,4 +79,5 @@ end
 #puts MySecondRubyReduce
 
 # inject > executa uma soma de todos os itens do array
+puts myNewArr
 puts myNewArr.inject(:+)
