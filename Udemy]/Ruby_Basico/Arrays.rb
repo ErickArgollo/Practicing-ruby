@@ -76,4 +76,7 @@ MySecondRubyReduce = myNewArr.reduce(0) do |acc, curr|
     acc + curr
 end
 
-puts MySecondRubyReduce
+#puts MySecondRubyReduce
+
+# inject > executa uma soma de todos os itens do array
+puts myNewArr.inject(:+)
