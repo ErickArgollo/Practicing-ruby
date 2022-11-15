@@ -5,7 +5,7 @@ class Funcionario
         @nome = nome
         @salario = salario
     end
-    def cargo # Teste de polimorfismo
+    def cargo # Teste de polimorfismo > Method overriding
         puts "Eu sou um funcionário"
     end
 end
@@ -13,7 +13,10 @@ end
 class Gerente < Funcionario
     attr_reader :senha
     def initialize(nome, salario, senha)
-        super(nome, salario)
+        super(nome, salario) #o super invoca o método correspondente na classe pai.
+        # Também poderia fazer
+        # @nome = nome
+        # @salario = salario
         @senha = senha
     end
     def cargo # Aqui estou sobrescrevendo o def cargo que vem da superClasse 
